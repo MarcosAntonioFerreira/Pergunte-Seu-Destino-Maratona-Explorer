@@ -55,7 +55,7 @@ function fazerPergunta(){
     alert("Digite sua pergunta")
     return
   }
-  buttonPerguntar.setAttibute("disabled",true)
+  buttonPerguntar.setAttribute("disabled",true)
   const pergunta = "<div>" + inputPergunta.value + "</div>"
   
   //gerar numero aleatorio
